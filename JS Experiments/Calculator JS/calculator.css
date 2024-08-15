@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    display: grid;
+    grid-template-areas:
+        "display display display display"
+        "clear clear delete division"
+        "number7 number8 number9 multi"
+        "number4 number5 number6 sub"
+        "number1 number2 number3 sum"
+        "number0 number0 number0 equal";
+    grid-template-columns: repeat(4, 1fr); /* Dört sütun */
+    grid-template-rows: repeat(6, 1fr); /* Beş satır */
+    grid-gap: 5px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 300px; /* Genişliği artırabilirsiniz */
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.display {
+    grid-area: display;
+}
+
+.clear {
+    background-color: aqua;
+    grid-area: clear;
+}
+
+.delete {
+    background-color: grey;
+    grid-area: delete;
+}
+
+.sum {
+    grid-area: sum;
+}
+
+.sub {
+    grid-area: sub;
+}
+
+.division {
+    grid-area: division;
+}
+
+.multi {
+    grid-area: multi;
+}
+
+.number7 {
+    background-color: blueviolet;
+    grid-area: number7;
+}
+
+.number8 {
+    background-color: violet;
+    grid-area: number8;
+}
+
+.number9 {
+    background-color: greenyellow;
+    grid-area: number9;
+}
+
+.number4 {
+    background-color: pink;
+    grid-area: number4;
+}
+
+.number5 {
+    background-color: purple;
+    grid-area: number5;
+}
+
+.number6 {
+    color: white;
+    background-color: #000;
+    grid-area: number6;
+}
+
+.number1 {
+    background-color: red;
+    grid-area: number1;
+}
+
+.number2 {
+    background-color: blue;
+    grid-area: number2;
+}
+
+.number3 {
+    color: white;
+    background-color: darkblue;
+    grid-area: number3;
+}
+
+.number0 {
+    background-color: wheat;
+    grid-area: number0;
+}
+
+.equal {
+    grid-area: equal;
+}
