@@ -22,6 +22,6 @@ This repository contains a collection of small JavaScript projects I built to pr
 
 ## How to run
 
-- Clone the repo: `git clone https://github.com/your-username/JS-Experiments.git`
+- Clone the repo: `git clone https://github.com/ulquiorraexe/JS-Experiments.git`
 - Open any project folder
 - Open the `index.html` file in your browser
